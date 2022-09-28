@@ -1,0 +1,30 @@
+public class Main {
+
+  public static void main(String[] args) {
+    System.out.println("Prioridade");
+
+    System.out.println(" ");
+
+    System.out.println("Legenda:");
+    System.out.println("Processos: P1, P2, P3, P4");
+    System.out.println("Processo em andamento: -");
+    System.out.println("Processo em espera: |");
+    System.out.println("Processo finalizado: ;");
+
+    System.out.println(" ");
+
+    System.out.println("P1(6,2,1,4) - Prioridade 3"); // Terceiro
+    System.out.println("P2(4,-1,3,1) - Prioridade 1"); // Primeiro
+    System.out.println("P3(-1,2,1,4) - Prioridade 4"); // Quarto
+    System.out.println("P4(5,-2,2,1) - Prioridade 2"); // Segundo
+
+    System.out.println(" ");
+
+    System.out.println("P1                 -------------;        ");
+    System.out.println("P2 ----|    ----;                        ");
+    System.out.println("P3                              |-------;");
+    System.out.println("P4     -----||  ---;                     ");
+  
+  }
+
+}
