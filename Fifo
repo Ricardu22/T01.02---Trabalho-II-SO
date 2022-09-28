@@ -1,0 +1,77 @@
+public class Main {
+
+  public static void main(String[] args) {
+    int P1 = 10;
+    int P2 = 7;
+    int P3 = 12;
+    int P4 = 5;
+
+    System.out.println("FIFO");
+
+    System.out.println(" ");
+
+    System.out.println("Legenda:");
+    System.out.println("Processos: P1, P2, P3, P4");
+    System.out.println("Processo em andamento: -");
+    System.out.println("Processo em espera: |");
+    System.out.println("Processo finalizado: ;");
+
+    System.out.println(" ");
+
+    System.out.println("P1: 3, 2, 5");
+    System.out.println("P2: 5, 2");
+    System.out.println("P3: 3, 5, 4");
+    System.out.println("P4: 5");
+
+    System.out.println(" ");
+    System.out.print("P1: ");
+    while (P1 != 0) {
+      System.out.print("-");
+
+      P1 -= 1;
+
+    }
+
+    System.out.print(";");
+
+    System.out.println("");
+
+    System.out.print("P2:           ");
+    while (P2 != 0) {
+      System.out.print("-");
+
+      P2 -= 1;
+
+    }
+
+    System.out.print(";");
+
+    System.out.println("");
+
+    System.out.print("P3:                  ");
+    while (P3 != 0) {
+      System.out.print("-");
+
+      P3 -= 1;
+
+    }
+
+    System.out.print(";");
+
+    System.out.println("");
+
+    System.out.print("P4:                              ");
+    while (P4 != 0) {
+      System.out.print("-");
+
+      P4 -= 1;
+
+    }
+
+    System.out.print(";");
+
+    System.out.println(" ");
+
+  }
+
+}
